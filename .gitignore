@@ -1,4 +1,55 @@
-.ipynb_checkpoints/
+# ---- Python ----
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.env
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Notebook outputs / run artifacts (this project) ----
+roi_result.json
+*.roi_result.json
+/kaggle/working/
+working/
+output/
+outputs/
+
+# ---- Images & datasets (usually too large / private for the repo) ----
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.webp
+# whitelist any images you DO want tracked (e.g. docs/screenshots), e.g.:
+# !docs/**/*.png
+# !assets/**/*.jpg
+
+# ---- Generated reports ----
+*.docx
+*.pdf
+~$*.docx
+
+# ---- OS / editor junk ----
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Logs / caches ----
+*.log
+.cache/
+.pytest_cache/
